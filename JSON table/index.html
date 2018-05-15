@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/main.css" rel="stylesheet">
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="root">
+            </div>   
+            <textarea id="textArea" cols=70 rows=20 placeholder="Введите данные в формате JSON"></textarea>
+            <div class="btn-block">
+                <button class="btn btn-option" title="Введите в текстовое поле данные в формате JSON" onclick="parse()">Сгенерировать таблицу</button>
+                <button class="btn btn-option" onclick="stringify()">Вернуть в формате JSON</button>
+                <button class="btn btn-option" onclick="prettyPrint()">Вернуть в читаемом виде</button>
+            </div> 
+        </div>   
+    </body>
+</html>
